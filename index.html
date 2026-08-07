@@ -1,0 +1,949 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#050706" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="description" content="Sellery is the operator-led parent company behind software, AI, technology, and ecommerce businesses. We build systems, acquire companies, and compound durable advantage." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Sellery — Technology built to own the next move." />
+  <meta property="og:description" content="The operating company behind software, AI, technology, and ecommerce businesses." />
+  <meta property="og:image" content="https://sellerydigital.com/assets/og-image.jpg" />
+  <meta property="og:url" content="https://sellerydigital.com/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://sellerydigital.com/" />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="assets/favicon-32.png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" href="assets/sellery-logo-on-dark.webp" as="image" type="image/webp" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Sellery — Technology built to own the next move.</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Sellery",
+    "url": "https://sellerydigital.com/",
+    "logo": "https://sellerydigital.com/assets/sellery-logo-on-light.png",
+    "email": "info@sellerydigital.com",
+    "description": "An operator-led parent company that builds, buys, operates, and scales software, technology, and ecommerce businesses."
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+  <div class="page-effects" aria-hidden="true">
+    <canvas id="starfield"></canvas>
+    <div class="ambient ambient-a"></div>
+    <div class="ambient ambient-b"></div>
+    <div class="ambient ambient-c"></div>
+    <div class="global-grid"></div>
+    <div class="grain"></div>
+    <div class="cursor-aura" id="cursor-aura"></div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Sellery home">
+        <picture class="brand-picture brand-on-dark">
+          <source srcset="assets/sellery-logo-on-dark.webp" type="image/webp" />
+          <img src="assets/sellery-logo-on-dark.png" alt="Sellery" width="300" height="100" />
+        </picture>
+        <picture class="brand-picture brand-on-light">
+          <source srcset="assets/sellery-logo-on-light.webp" type="image/webp" />
+          <img src="assets/sellery-logo-on-light.png" alt="Sellery" width="300" height="100" />
+        </picture>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#company">Company</a>
+        <a href="#platform">Platform</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#acquisitions">Acquisitions</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Switch theme">
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 15.5A8.4 8.4 0 0 1 8.5 3.6a8.5 8.5 0 1 0 11.9 11.9Z" /></svg>
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5" /><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41" /></svg>
+        </button>
+        <a class="button button-small button-primary nav-cta" href="#contact" data-intent="Strategic partnership">
+          Discuss an opportunity
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg>
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="top">
+      <div class="hero-radial" aria-hidden="true"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy reveal">
+          <div class="eyebrow">
+            <span class="eyebrow-index">S / 01</span>
+            <span>Operator-led technology &amp; commerce company</span>
+          </div>
+          <h1>Technology built to <span class="text-sheen">own the next move.</span></h1>
+          <p class="hero-lede">
+            Sellery is the parent company behind software, AI, technology, and ecommerce businesses. We build proprietary systems, acquire exceptional companies, and operate them for durable, compounding growth.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary button-large" href="#portfolio">
+              Explore the portfolio
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg>
+            </a>
+            <a class="button button-quiet button-large" href="#acquisitions" data-intent="Sell my business">
+              Sell us your business
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 4h10v10M15.5 4.5 5 15" /></svg>
+            </a>
+          </div>
+          <div class="hero-meta" aria-label="Sellery operating model">
+            <div><span>01</span><strong>Build</strong><small>Proprietary software</small></div>
+            <div><span>02</span><strong>Buy</strong><small>Exceptional companies</small></div>
+            <div><span>03</span><strong>Operate</strong><small>Inside the business</small></div>
+            <div><span>04</span><strong>Compound</strong><small>For the long term</small></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay-1" data-depth-card>
+          <div class="hero-visual-halo"></div>
+          <div class="control-plane">
+            <div class="control-topbar">
+              <div class="window-dots" aria-hidden="true"><span></span><span></span><span></span></div>
+              <div class="control-title"><span>SELLERY</span> / CONTROL PLANE</div>
+              <div class="control-status"><i></i> Systems online</div>
+            </div>
+
+            <div class="control-body">
+              <aside class="control-rail" aria-label="Illustrative platform navigation">
+                <button class="rail-button active" type="button" aria-label="Portfolio graph">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 18V9m7 9V5m7 13v-7" /></svg>
+                </button>
+                <button class="rail-button" type="button" aria-label="Automation systems">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M18.4 5.6l-2.8 2.8M8.4 15.6l-2.8 2.8" /><circle cx="12" cy="12" r="4" /></svg>
+                </button>
+                <button class="rail-button" type="button" aria-label="Commerce systems">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14v12H5zM8 7V5h8v2M8 11h8M8 15h5" /></svg>
+                </button>
+                <button class="rail-button" type="button" aria-label="Acquisition systems">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h16M12 4v16M6 6l12 12M18 6 6 18" /></svg>
+                </button>
+                <span class="rail-spacer"></span>
+                <button class="rail-button" type="button" aria-label="Settings">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3" /><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.9l.1.1-2.8 2.8-.1-.1a1.7 1.7 0 0 0-1.9-.3 1.7 1.7 0 0 0-1 1.6v.2h-4V21a1.7 1.7 0 0 0-1-1.6 1.7 1.7 0 0 0-1.9.3l-.1.1L4.2 17l.1-.1a1.7 1.7 0 0 0 .3-1.9A1.7 1.7 0 0 0 3 14H2.8v-4H3a1.7 1.7 0 0 0 1.6-1 1.7 1.7 0 0 0-.3-1.9L4.2 7 7 4.2l.1.1a1.7 1.7 0 0 0 1.9.3A1.7 1.7 0 0 0 10 3v-.2h4V3a1.7 1.7 0 0 0 1 1.6 1.7 1.7 0 0 0 1.9-.3l.1-.1L19.8 7l-.1.1a1.7 1.7 0 0 0-.3 1.9 1.7 1.7 0 0 0 1.6 1h.2v4H21a1.7 1.7 0 0 0-1.6 1Z" /></svg>
+                </button>
+              </aside>
+
+              <div class="control-workspace">
+                <div class="workspace-heading">
+                  <div>
+                    <span class="micro-label">PORTFOLIO OPERATING GRAPH</span>
+                    <h2>Advantage, connected.</h2>
+                  </div>
+                  <div class="workspace-mode"><span>Continuous</span><i></i></div>
+                </div>
+
+                <div class="operating-graph" aria-label="Illustrative Sellery operating graph">
+                  <svg class="graph-lines" viewBox="0 0 660 350" preserveAspectRatio="none" aria-hidden="true">
+                    <defs>
+                      <linearGradient id="graphFlow" x1="0" x2="1">
+                        <stop offset="0" stop-color="#9cff67" stop-opacity="0" />
+                        <stop offset="0.45" stop-color="#9cff67" stop-opacity="0.85" />
+                        <stop offset="1" stop-color="#9cff67" stop-opacity="0" />
+                      </linearGradient>
+                      <radialGradient id="coreFill">
+                        <stop offset="0" stop-color="#9cff67" stop-opacity="0.28" />
+                        <stop offset="1" stop-color="#9cff67" stop-opacity="0" />
+                      </radialGradient>
+                    </defs>
+                    <path class="graph-connection" d="M330 176 118 78" />
+                    <path class="graph-connection" d="M330 176 540 72" />
+                    <path class="graph-connection" d="M330 176 112 278" />
+                    <path class="graph-connection" d="M330 176 548 278" />
+                    <path class="graph-pulse graph-pulse-a" d="M118 78 330 176 540 72" />
+                    <path class="graph-pulse graph-pulse-b" d="M112 278 330 176 548 278" />
+                    <circle cx="330" cy="176" r="92" fill="url(#coreFill)" />
+                  </svg>
+
+                  <div class="graph-core">
+                    <span class="core-orbit core-orbit-a"></span>
+                    <span class="core-orbit core-orbit-b"></span>
+                    <span class="core-orbit core-orbit-c"></span>
+                    <small>SELLERY</small>
+                    <strong>CORE</strong>
+                    <i></i>
+                  </div>
+
+                  <div class="graph-node graph-node-a"><i></i><span>Malach</span><small>AI advertising</small></div>
+                  <div class="graph-node graph-node-b"><i></i><span>Commerce OS</span><small>Operating data</small></div>
+                  <div class="graph-node graph-node-c"><i></i><span>Owned Commerce</span><small>Brands &amp; retail</small></div>
+                  <div class="graph-node graph-node-d"><i></i><span>Capital</span><small>Acquisitions</small></div>
+                </div>
+
+                <div class="control-lower">
+                  <div class="signal-card">
+                    <div class="signal-head"><span>Operating signal</span><strong>Compounding</strong></div>
+                    <div class="signal-chart" aria-hidden="true">
+                      <svg viewBox="0 0 300 82" preserveAspectRatio="none">
+                        <path class="signal-area" d="M0 70C30 67 43 59 66 62s35-18 58-15 32-7 54-15 33 8 56-8 38-8 66-20V82H0Z" />
+                        <path class="signal-line" d="M0 70C30 67 43 59 66 62s35-18 58-15 32-7 54-15 33 8 56-8 38-8 66-20" />
+                      </svg>
+                    </div>
+                    <div class="signal-legend"><span><i></i>Systems</span><span>Live architecture</span></div>
+                  </div>
+
+                  <div class="activity-card">
+                    <div class="activity-head"><span>Decision stream</span><i></i></div>
+                    <div class="activity-feed" id="activity-feed">
+                      <div class="activity-row"><time>09:42</time><span>Signals normalized across portfolio</span></div>
+                      <div class="activity-row"><time>09:44</time><span>Margin anomaly routed to operator</span></div>
+                      <div class="activity-row"><time>09:46</time><span>Campaign action entered simulation</span></div>
+                      <div class="activity-row"><time>09:48</time><span>Capital allocation model refreshed</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero-visual-caption"><span>Illustrative operating architecture</span><i></i><span>Software × Commerce × Capital</span></div>
+        </div>
+      </div>
+
+      <div class="container hero-proof reveal reveal-delay-2">
+        <span class="proof-label">THE SELLERY MODEL</span>
+        <div class="proof-line"><span>AI-native systems</span><i></i><span>Operator ownership</span><i></i><span>Global commerce</span><i></i><span>Long-term horizon</span></div>
+      </div>
+    </section>
+
+    <section class="section company" id="company">
+      <div class="container">
+        <div class="section-intro reveal">
+          <div class="section-index"><span>02</span><i></i><small>Company</small></div>
+          <div class="section-intro-copy">
+            <h2>A permanent operating company for <span class="text-sheen">software and commerce.</span></h2>
+            <p>We combine product engineering, performance systems, ecommerce execution, and patient ownership. The result is a portfolio that shares intelligence without losing what makes each company distinct.</p>
+          </div>
+        </div>
+
+        <div class="company-bento">
+          <article class="bento-card bento-card-lead reveal" data-depth-card>
+            <div class="bento-kicker">THE OPERATING EDGE</div>
+            <h3>We turn recurring operating problems into proprietary systems.</h3>
+            <p>Every useful algorithm, workflow, and data layer can become an advantage across the portfolio—then improve again with each new company and each new signal.</p>
+            <div class="architecture-stack" aria-hidden="true">
+              <div class="stack-layer stack-layer-1"><span>01</span><strong>Signals</strong><small>Market, customer, margin, competitors</small></div>
+              <div class="stack-layer stack-layer-2"><span>02</span><strong>Intelligence</strong><small>Models, rules, simulations, decisions</small></div>
+              <div class="stack-layer stack-layer-3"><span>03</span><strong>Execution</strong><small>Software, automation, operators</small></div>
+            </div>
+          </article>
+
+          <article class="bento-card reveal reveal-delay-1">
+            <div class="bento-icon">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 24 13 6l6 12 9-4M4 27h24" /></svg>
+            </div>
+            <span class="bento-number">01</span>
+            <h3>Build</h3>
+            <p>AI-native products, automation, and data systems developed from real operating needs.</p>
+            <div class="bento-footer">Own the algorithm</div>
+          </article>
+
+          <article class="bento-card reveal reveal-delay-2">
+            <div class="bento-icon">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 16h20M16 6v20M9 9l14 14M23 9 9 23" /></svg>
+            </div>
+            <span class="bento-number">02</span>
+            <h3>Buy</h3>
+            <p>Software, technology-enabled, and ecommerce companies with durable demand and unrealized potential.</p>
+            <div class="bento-footer">Preserve what works</div>
+          </article>
+
+          <article class="bento-card reveal">
+            <div class="bento-icon">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 8h22v16H5zM10 13h12M10 18h7" /></svg>
+            </div>
+            <span class="bento-number">03</span>
+            <h3>Operate</h3>
+            <p>Hands-on involvement across product, growth, finance, systems, customer experience, and execution.</p>
+            <div class="bento-footer">Strategy becomes reality</div>
+          </article>
+
+          <article class="bento-card bento-card-accent reveal reveal-delay-1">
+            <div class="bento-icon">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 25V11l10-6 10 6v14l-10 5-10-5Z" /><path d="m6 11 10 6 10-6M16 17v13" /></svg>
+            </div>
+            <span class="bento-number">04</span>
+            <h3>Compound</h3>
+            <p>Shared technology and operating knowledge create a stronger company, then a stronger portfolio.</p>
+            <div class="bento-footer">Built for the long term</div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section platform" id="platform">
+      <div class="platform-glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-intro section-intro-platform reveal">
+          <div class="section-index"><span>03</span><i></i><small>Platform</small></div>
+          <div class="section-intro-copy">
+            <h2>One operating layer. <span class="text-sheen">Every company gets stronger.</span></h2>
+            <p>Sellery’s internal platform connects intelligence, automation, commerce, and capital into a single decision architecture.</p>
+          </div>
+        </div>
+
+        <div class="platform-shell reveal">
+          <div class="platform-sidebar">
+            <div class="platform-sidebar-head">
+              <span class="micro-label">SELLERY OPERATING LAYER</span>
+              <h3>From signal to execution.</h3>
+              <p>Each layer is designed to reduce latency between seeing the opportunity and acting on it.</p>
+            </div>
+
+            <div class="platform-tabs" role="tablist" aria-label="Sellery platform layers">
+              <button class="platform-tab active" type="button" role="tab" aria-selected="true" aria-controls="panel-intelligence" id="tab-intelligence" data-platform="intelligence">
+                <span>01</span><div><strong>Intelligence</strong><small>Detect what matters</small></div><i></i>
+              </button>
+              <button class="platform-tab" type="button" role="tab" aria-selected="false" aria-controls="panel-automation" id="tab-automation" data-platform="automation">
+                <span>02</span><div><strong>Automation</strong><small>Convert decisions into action</small></div><i></i>
+              </button>
+              <button class="platform-tab" type="button" role="tab" aria-selected="false" aria-controls="panel-commerce" id="tab-commerce" data-platform="commerce">
+                <span>03</span><div><strong>Commerce</strong><small>Operate with true economics</small></div><i></i>
+              </button>
+              <button class="platform-tab" type="button" role="tab" aria-selected="false" aria-controls="panel-capital" id="tab-capital" data-platform="capital">
+                <span>04</span><div><strong>Capital</strong><small>Allocate toward advantage</small></div><i></i>
+              </button>
+            </div>
+
+            <a class="text-link" href="#contact" data-intent="Technology opportunity">
+              Discuss the platform
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg>
+            </a>
+          </div>
+
+          <div class="platform-display">
+            <div class="display-topbar">
+              <div class="display-brand"><span>S</span><strong>SELLERY CONTROL</strong></div>
+              <div class="display-breadcrumb">Portfolio / <span id="platform-breadcrumb">Intelligence</span></div>
+              <div class="display-user"><i></i><span>Operator mode</span></div>
+            </div>
+
+            <div class="platform-panel active" id="panel-intelligence" role="tabpanel" aria-labelledby="tab-intelligence" data-panel="intelligence">
+              <div class="panel-toolbar">
+                <div><span class="micro-label">SIGNAL INTELLIGENCE</span><h4>See the market before the market sees you.</h4></div>
+                <span class="panel-state"><i></i> Monitoring</span>
+              </div>
+              <div class="intelligence-grid">
+                <div class="ui-card intelligence-chart-card">
+                  <div class="ui-card-head"><span>Signal density</span><small>Continuous input</small></div>
+                  <div class="intelligence-chart" aria-hidden="true">
+                    <svg viewBox="0 0 600 220" preserveAspectRatio="none">
+                      <defs><linearGradient id="intelArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9cff67" stop-opacity=".28" /><stop offset="1" stop-color="#9cff67" stop-opacity="0" /></linearGradient></defs>
+                      <path class="chart-grid" d="M0 44H600M0 88H600M0 132H600M0 176H600M100 0V220M200 0V220M300 0V220M400 0V220M500 0V220" />
+                      <path class="chart-area" d="M0 182C35 178 46 162 78 168s52-22 84-18 47-36 82-27 48-8 80-15 45 24 78 5 49-42 83-31 53-48 87-39 43-23 78-32V220H0Z" fill="url(#intelArea)" />
+                      <path class="chart-line" d="M0 182C35 178 46 162 78 168s52-22 84-18 47-36 82-27 48-8 80-15 45 24 78 5 49-42 83-31 53-48 87-39 43-23 78-32" />
+                    </svg>
+                    <div class="chart-cursor"><i></i><span>High-confidence opportunity</span></div>
+                  </div>
+                  <div class="chart-footer"><span>Customer</span><span>Market</span><span>Competitors</span><span>Economics</span></div>
+                </div>
+                <div class="ui-card signal-sources-card">
+                  <div class="ui-card-head"><span>Signal sources</span><small>Connected</small></div>
+                  <div class="source-list">
+                    <div><i class="source-dot source-dot-green"></i><span>Commerce data</span><strong>Live</strong></div>
+                    <div><i class="source-dot source-dot-blue"></i><span>Market intelligence</span><strong>Live</strong></div>
+                    <div><i class="source-dot source-dot-violet"></i><span>Advertising systems</span><strong>Live</strong></div>
+                    <div><i class="source-dot source-dot-silver"></i><span>Financial layer</span><strong>Live</strong></div>
+                  </div>
+                </div>
+                <div class="ui-card decision-card">
+                  <div class="decision-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v5M12 17v5M2 12h5M17 12h5M5 5l3.5 3.5M15.5 15.5 19 19M19 5l-3.5 3.5M8.5 15.5 5 19" /><circle cx="12" cy="12" r="3.5" /></svg></div>
+                  <div><span>Next best action</span><strong>Simulate, compare, deploy.</strong></div>
+                  <button type="button" class="mini-button" data-demo-action="intelligence">Inspect</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="platform-panel" id="panel-automation" role="tabpanel" aria-labelledby="tab-automation" data-panel="automation" hidden>
+              <div class="panel-toolbar">
+                <div><span class="micro-label">AUTOMATION FABRIC</span><h4>Move from approved decision to coordinated execution.</h4></div>
+                <span class="panel-state"><i></i> Orchestrating</span>
+              </div>
+              <div class="automation-canvas">
+                <svg class="automation-lines" viewBox="0 0 760 430" preserveAspectRatio="none" aria-hidden="true">
+                  <path d="M118 214H260M380 214H500M620 214H716" />
+                  <path d="M320 154V88M320 274v74M560 154V88M560 274v74" />
+                  <path class="automation-flow" d="M118 214H260M380 214H500M620 214H716" />
+                </svg>
+                <div class="workflow-node workflow-trigger"><span>TRIGGER</span><strong>Signal approved</strong><small>Confidence threshold met</small></div>
+                <div class="workflow-node workflow-router"><span>ROUTER</span><strong>Decision engine</strong><small>Rules + model + operator</small></div>
+                <div class="workflow-node workflow-action"><span>ACTION</span><strong>Deploy systems</strong><small>Campaigns, catalog, CX, ops</small></div>
+                <div class="workflow-node workflow-result"><span>RESULT</span><strong>Measure impact</strong><small>Feed outcome back into model</small></div>
+                <div class="workflow-mini workflow-mini-a"><i></i><span>Guardrails</span></div>
+                <div class="workflow-mini workflow-mini-b"><i></i><span>Approvals</span></div>
+                <div class="workflow-mini workflow-mini-c"><i></i><span>Experiment</span></div>
+                <div class="workflow-mini workflow-mini-d"><i></i><span>Learning loop</span></div>
+              </div>
+            </div>
+
+            <div class="platform-panel" id="panel-commerce" role="tabpanel" aria-labelledby="tab-commerce" data-panel="commerce" hidden>
+              <div class="panel-toolbar">
+                <div><span class="micro-label">COMMERCE ECONOMICS</span><h4>Operate against contribution, not surface-level revenue.</h4></div>
+                <span class="panel-state"><i></i> Synchronized</span>
+              </div>
+              <div class="commerce-grid">
+                <div class="ui-card commerce-summary">
+                  <div class="ui-card-head"><span>Portfolio economics</span><small>Unified view</small></div>
+                  <div class="summary-value"><small>Operating lens</small><strong>Contribution-first</strong></div>
+                  <div class="summary-bars">
+                    <div><span>Demand</span><i><b style="--value:86%"></b></i></div>
+                    <div><span>Margin</span><i><b style="--value:72%"></b></i></div>
+                    <div><span>Retention</span><i><b style="--value:79%"></b></i></div>
+                    <div><span>Efficiency</span><i><b style="--value:68%"></b></i></div>
+                  </div>
+                </div>
+                <div class="ui-card commerce-table-card">
+                  <div class="ui-card-head"><span>Operating view</span><small>Portfolio</small></div>
+                  <div class="commerce-table">
+                    <div class="table-row table-head"><span>Engine</span><span>Signal</span><span>State</span></div>
+                    <div class="table-row"><span><i class="table-icon table-icon-green"></i>Paid acquisition</span><span>Efficiency</span><strong>Optimizing</strong></div>
+                    <div class="table-row"><span><i class="table-icon table-icon-blue"></i>Catalog</span><span>Margin</span><strong>Healthy</strong></div>
+                    <div class="table-row"><span><i class="table-icon table-icon-violet"></i>Lifecycle</span><span>Retention</span><strong>Expanding</strong></div>
+                    <div class="table-row"><span><i class="table-icon table-icon-silver"></i>Operations</span><span>Latency</span><strong>Monitoring</strong></div>
+                  </div>
+                </div>
+                <div class="ui-card commerce-alert">
+                  <span class="alert-pulse"></span>
+                  <div><small>Operator insight</small><strong>One view from demand to contribution.</strong></div>
+                  <button type="button" class="mini-button" data-demo-action="commerce">Open</button>
+                </div>
+              </div>
+            </div>
+
+            <div class="platform-panel" id="panel-capital" role="tabpanel" aria-labelledby="tab-capital" data-panel="capital" hidden>
+              <div class="panel-toolbar">
+                <div><span class="micro-label">CAPITAL INTELLIGENCE</span><h4>Direct resources toward the highest-quality advantage.</h4></div>
+                <span class="panel-state"><i></i> Evaluating</span>
+              </div>
+              <div class="capital-layout">
+                <div class="capital-pipeline">
+                  <div class="pipeline-column">
+                    <div class="pipeline-head"><span>DISCOVER</span><i>03</i></div>
+                    <div class="deal-card"><small>Software</small><strong>Vertical intelligence</strong><span>Reviewing fit</span></div>
+                    <div class="deal-card"><small>Commerce</small><strong>Category leader</strong><span>Early dialogue</span></div>
+                  </div>
+                  <div class="pipeline-column">
+                    <div class="pipeline-head"><span>UNDERSTAND</span><i>02</i></div>
+                    <div class="deal-card deal-card-active"><small>Technology</small><strong>Operator workflow</strong><span>System mapping</span></div>
+                    <div class="deal-card"><small>Ecommerce</small><strong>Durable demand</strong><span>Economics review</span></div>
+                  </div>
+                  <div class="pipeline-column">
+                    <div class="pipeline-head"><span>COMPOUND</span><i>01</i></div>
+                    <div class="deal-card"><small>Portfolio</small><strong>Shared advantage</strong><span>Integration design</span></div>
+                  </div>
+                </div>
+                <div class="capital-scorecard">
+                  <span class="micro-label">OPPORTUNITY LENS</span>
+                  <div><span>Durable demand</span><i><b style="--value:88%"></b></i></div>
+                  <div><span>Operating leverage</span><i><b style="--value:76%"></b></i></div>
+                  <div><span>Technology fit</span><i><b style="--value:91%"></b></i></div>
+                  <div><span>Long-term potential</span><i><b style="--value:84%"></b></i></div>
+                  <a href="#acquisitions">Acquisition criteria <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section portfolio" id="portfolio">
+      <div class="container">
+        <div class="section-intro reveal">
+          <div class="section-index"><span>04</span><i></i><small>Portfolio</small></div>
+          <div class="section-intro-copy">
+            <h2>Built inside the portfolio. <span class="text-sheen">Proven through operation.</span></h2>
+            <p>Our technology is created close to the problem: inside the companies, channels, and decisions it is designed to improve.</p>
+          </div>
+        </div>
+
+        <article class="malach-feature reveal" data-depth-card>
+          <div class="malach-copy">
+            <div class="portfolio-state"><span><i></i> Flagship AI platform</span><strong>Active development</strong></div>
+            <picture class="malach-wordmark">
+              <source srcset="assets/malach-logo.webp" type="image/webp" />
+              <img src="assets/malach-mark.png" alt="Malach" width="900" height="400" loading="lazy" />
+            </picture>
+            <div class="malach-title-lockup">
+              <h3>Autonomous AI Ad Angel</h3>
+              <p>An always-on advertising operating system designed to understand the business, monitor performance, reason through tradeoffs, and execute toward contribution—not vanity metrics.</p>
+            </div>
+            <div class="malach-capabilities">
+              <span>Continuous intelligence</span>
+              <span>Autonomous execution</span>
+              <span>Profit-aware decisions</span>
+              <span>Full action history</span>
+            </div>
+            <div class="malach-actions">
+              <button class="button button-primary project-open" type="button" data-project="malach">
+                Open product brief
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg>
+              </button>
+              <a class="button button-quiet" href="#contact" data-intent="Technology opportunity">Discuss Malach</a>
+            </div>
+          </div>
+
+          <div class="malach-product" aria-label="Illustrative Malach product interface">
+            <div class="malach-product-glow"></div>
+            <div class="malach-app">
+              <div class="malach-appbar">
+                <div class="malach-app-brand"><picture><source srcset="assets/malach-mark.webp" type="image/webp" /><img src="assets/malach-mark.png" alt="" width="64" height="64" loading="lazy" /></picture><span>MALACH</span></div>
+                <div class="malach-account"><span>Account intelligence</span><i></i></div>
+              </div>
+              <div class="malach-appbody">
+                <aside class="malach-nav">
+                  <button class="active" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 13h6V4H4zM14 20h6V11h-6zM4 20h6v-3H4zM14 7h6V4h-6z" /></svg><span>Command</span></button>
+                  <button type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18 10 9l4 5 6-9M4 21h16" /></svg><span>Performance</span></button>
+                  <button type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" /><path d="M12 7v5l3 2" /></svg><span>Autopilot</span></button>
+                  <button type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14v14H5zM8 9h8M8 13h5" /></svg><span>History</span></button>
+                </aside>
+                <div class="malach-workspace">
+                  <div class="malach-workspace-head">
+                    <div><small>COMMAND CENTER</small><strong>Good evening, Operator.</strong></div>
+                    <div class="autonomy-toggle"><span>Autonomous mode</span><i><b></b></i></div>
+                  </div>
+                  <div class="malach-metrics">
+                    <div><span>Contribution lens</span><strong>Active</strong><small>Business-aware</small></div>
+                    <div><span>Decision engine</span><strong>Online</strong><small>Monitoring continuously</small></div>
+                    <div><span>Action posture</span><strong>Disciplined</strong><small>Guardrails engaged</small></div>
+                  </div>
+                  <div class="malach-main-grid">
+                    <div class="malach-chart-card">
+                      <div class="malach-card-head"><span>Performance intelligence</span><small>Portfolio view</small></div>
+                      <div class="malach-chart" aria-hidden="true">
+                        <svg viewBox="0 0 500 190" preserveAspectRatio="none">
+                          <defs><linearGradient id="malachArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9b6cff" stop-opacity=".36" /><stop offset="1" stop-color="#9b6cff" stop-opacity="0" /></linearGradient></defs>
+                          <path class="malach-grid-lines" d="M0 38H500M0 76H500M0 114H500M0 152H500M100 0V190M200 0V190M300 0V190M400 0V190" />
+                          <path class="malach-area" d="M0 158C38 153 47 138 78 142s43-31 79-21 42-15 80-8 39-38 76-26 50-10 87-21 58-35 100-49V190H0Z" fill="url(#malachArea)" />
+                          <path class="malach-line" d="M0 158C38 153 47 138 78 142s43-31 79-21 42-15 80-8 39-38 76-26 50-10 87-21 58-35 100-49" />
+                        </svg>
+                      </div>
+                      <div class="malach-chart-labels"><span>Signal</span><span>Decision</span><span>Action</span><span>Learning</span></div>
+                    </div>
+                    <div class="malach-feed-card">
+                      <div class="malach-card-head"><span>Agent activity</span><i></i></div>
+                      <div class="agent-feed">
+                        <div><time>Now</time><span>Budget reallocation simulated</span><strong>Review</strong></div>
+                        <div><time>2m</time><span>Search-term waste detected</span><strong>Resolved</strong></div>
+                        <div><time>8m</time><span>Margin model synchronized</span><strong>Complete</strong></div>
+                        <div><time>14m</time><span>Competitor signal captured</span><strong>Logged</strong></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="malach-commandbar"><span><i></i> Malach is monitoring the account</span><button type="button" data-demo-action="malach">Ask Malach <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></button></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="portfolio-grid">
+          <article class="portfolio-card portfolio-card-wide reveal" data-project="commerce-os" data-depth-card>
+            <div class="portfolio-card-head"><span>Internal infrastructure</span><i>Active</i></div>
+            <div class="portfolio-card-copy">
+              <div class="portfolio-icon portfolio-icon-green"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 7h22v18H5z" /><path d="M9 20l4-5 4 3 6-8M9 11h.01" /></svg></div>
+              <h3>Sellery Commerce OS</h3>
+              <p>A unified operating layer for catalog, margin, attribution, customer economics, and execution across ecommerce companies.</p>
+              <button class="text-link project-open" type="button" data-project="commerce-os">View system brief <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></button>
+            </div>
+            <div class="commerce-os-art" aria-hidden="true">
+              <div class="os-top"><span>SELLERY / COMMERCE OS</span><i></i></div>
+              <div class="os-grid">
+                <div class="os-sidebar"><i></i><i></i><i></i><i></i><i></i></div>
+                <div class="os-dashboard">
+                  <div class="os-metric"><span>Revenue</span><strong>Demand</strong><i><b></b></i></div>
+                  <div class="os-metric"><span>Margin</span><strong>Contribution</strong><i><b></b></i></div>
+                  <div class="os-chart"><span></span><span></span><span></span><span></span><span></span><svg viewBox="0 0 280 100" preserveAspectRatio="none"><path d="M0 85C36 80 42 69 70 72s42-29 70-20 40-18 68-12 40-30 72-26" /></svg></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="portfolio-card reveal reveal-delay-1" data-project="owned-commerce" data-depth-card>
+            <div class="portfolio-card-head"><span>Owned operations</span><i>Expanding</i></div>
+            <div class="portfolio-icon portfolio-icon-blue"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 12h20l-2 14H8L6 12Z" /><path d="M11 12V9a5 5 0 0 1 10 0v3M11 18h10" /></svg></div>
+            <h3>Owned Ecommerce</h3>
+            <p>Operator-led ecommerce companies strengthened by shared technology, procurement, customer intelligence, and execution systems.</p>
+            <button class="text-link project-open" type="button" data-project="owned-commerce">View operating model <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></button>
+            <div class="portfolio-card-visual commerce-orbits" aria-hidden="true"><span></span><span></span><span></span><i></i></div>
+          </article>
+
+          <article class="portfolio-card reveal reveal-delay-2" data-project="venture-studio" data-depth-card>
+            <div class="portfolio-card-head"><span>Venture creation</span><i>Continuous</i></div>
+            <div class="portfolio-icon portfolio-icon-violet"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 8 14h6l-2 15 12-17h-7l-1-9Z" /></svg></div>
+            <h3>Sellery Venture Studio</h3>
+            <p>AI-native products born from real operating pain, validated inside the portfolio before becoming independent businesses.</p>
+            <button class="text-link project-open" type="button" data-project="venture-studio">View studio thesis <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></button>
+            <div class="portfolio-card-visual code-stack" aria-hidden="true"><span>&lt;signal&gt;</span><span>model.decide()</span><span>system.deploy()</span><i></i></div>
+          </article>
+
+          <article class="portfolio-card reveal" data-project="acquisition-platform" data-depth-card>
+            <div class="portfolio-card-head"><span>Capital infrastructure</span><i>Active</i></div>
+            <div class="portfolio-icon portfolio-icon-silver"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 16h22M16 5v22M8 8l16 16M24 8 8 24" /></svg></div>
+            <h3>Acquisition Platform</h3>
+            <p>A disciplined system for discovering, understanding, acquiring, and integrating companies without flattening what made them valuable.</p>
+            <button class="text-link project-open" type="button" data-project="acquisition-platform">View acquisition thesis <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></button>
+            <div class="portfolio-card-visual acquisition-radar" aria-hidden="true"><span></span><span></span><span></span><i></i><b></b></div>
+          </article>
+
+          <article class="portfolio-card reveal reveal-delay-1" data-project="signal-layer" data-depth-card>
+            <div class="portfolio-card-head"><span>Algorithmic intelligence</span><i>Private</i></div>
+            <div class="portfolio-icon portfolio-icon-mint"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="10" /><path d="M16 2v5M16 25v5M2 16h5M25 16h5M6 6l4 4M22 22l4 4M26 6l-4 4M10 22l-4 4" /></svg></div>
+            <h3>Signal Layer</h3>
+            <p>Market, competitor, customer, and operating signals transformed into structured intelligence for faster, better decisions.</p>
+            <button class="text-link project-open" type="button" data-project="signal-layer">View intelligence brief <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></button>
+            <div class="portfolio-card-visual signal-wave" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section model" id="model">
+      <div class="container">
+        <div class="model-shell reveal">
+          <div class="model-copy">
+            <div class="eyebrow"><span class="eyebrow-index">S / 05</span><span>The ownership model</span></div>
+            <h2>Built to hold. Designed to improve.</h2>
+            <p>Our horizon is measured in operating progress, not a forced exit clock. We preserve the company’s identity, strengthen its systems, and reinvest in the next layer of advantage.</p>
+            <a class="button button-quiet" href="#acquisitions" data-intent="Sell my business">Explore a transition <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></a>
+          </div>
+          <div class="model-steps" role="list">
+            <div class="model-step active" role="listitem"><span>01</span><div><strong>Understand</strong><small>Learn the company, customer, economics, and edge.</small></div><i></i></div>
+            <div class="model-step" role="listitem"><span>02</span><div><strong>Protect</strong><small>Preserve the strengths that created durable demand.</small></div><i></i></div>
+            <div class="model-step" role="listitem"><span>03</span><div><strong>Systemize</strong><small>Embed technology, visibility, and operating rhythm.</small></div><i></i></div>
+            <div class="model-step" role="listitem"><span>04</span><div><strong>Compound</strong><small>Reinvest knowledge, capital, and software over time.</small></div><i></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-intro reveal">
+          <div class="section-index"><span>06</span><i></i><small>Services</small></div>
+          <div class="section-intro-copy">
+            <h2>Selective operator engagements for <span class="text-sheen">complex growth problems.</span></h2>
+            <p>We work with a limited number of companies where our software, commerce, and operating experience can materially change the trajectory.</p>
+          </div>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal" data-depth-card>
+            <span class="service-index">01</span>
+            <div class="service-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 25V7h24v18zM9 20l4-5 4 3 6-8" /></svg></div>
+            <h3>Growth systems</h3>
+            <p>Performance architecture, measurement, customer acquisition, lifecycle, offer design, and contribution-focused decision systems.</p>
+            <ul><li>Acquisition architecture</li><li>Unit economics</li><li>Experiment systems</li></ul>
+            <a class="text-link" href="#contact" data-intent="Consulting engagement">Discuss engagement <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></a>
+          </article>
+          <article class="service-card reveal reveal-delay-1" data-depth-card>
+            <span class="service-index">02</span>
+            <div class="service-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M6 10h20v16H6zM10 10V6h12v4M11 16h10M11 21h6" /></svg></div>
+            <h3>Ecommerce operations</h3>
+            <p>Technology, catalog, data, merchandising, margin, automation, customer experience, and operating cadence.</p>
+            <ul><li>Commerce infrastructure</li><li>Operational visibility</li><li>Margin optimization</li></ul>
+            <a class="text-link" href="#contact" data-intent="Consulting engagement">Discuss engagement <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></a>
+          </article>
+          <article class="service-card reveal reveal-delay-2" data-depth-card>
+            <span class="service-index">03</span>
+            <div class="service-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="16" cy="16" r="5" /><path d="M16 3v5M16 24v5M3 16h5M24 16h5M7 7l4 4M21 21l4 4M25 7l-4 4M11 21l-4 4" /></svg></div>
+            <h3>AI &amp; automation</h3>
+            <p>Applied intelligence and workflow systems that reduce latency, improve decision quality, and increase operating leverage.</p>
+            <ul><li>AI operating design</li><li>Workflow automation</li><li>Proprietary tooling</li></ul>
+            <a class="text-link" href="#contact" data-intent="Technology opportunity">Discuss engagement <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section acquisitions" id="acquisitions">
+      <div class="container">
+        <div class="acquisition-shell reveal" data-depth-card>
+          <div class="acquisition-orbit" aria-hidden="true"><span></span><span></span><span></span><i></i></div>
+          <div class="acquisition-copy">
+            <div class="eyebrow"><span class="eyebrow-index">S / 07</span><span>Acquisitions</span></div>
+            <h2>Built something worth preserving?</h2>
+            <p class="acquisition-lede">Sellery can become its next permanent operating home.</p>
+            <p>We acquire software, technology-enabled, and ecommerce companies where our systems and operating depth can unlock the next phase—without discarding the identity, customer trust, or founder insight that created the business.</p>
+            <div class="acquisition-principles">
+              <span><i></i>Direct and confidential</span>
+              <span><i></i>Flexible transaction structures</span>
+              <span><i></i>Operator-led transition</span>
+              <span><i></i>Long-term ownership</span>
+            </div>
+            <a class="button button-primary button-large" href="#contact" data-intent="Sell my business">
+              Start a private conversation
+              <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg>
+            </a>
+          </div>
+
+          <div class="acquisition-panel">
+            <div class="acquisition-panel-head">
+              <div><span class="micro-label">ACQUISITION LENS</span><h3>Companies we want to understand.</h3></div>
+              <span class="private-pill"><i></i> Private channel</span>
+            </div>
+            <div class="criteria-list">
+              <div><span>01</span><div><strong>Software &amp; SaaS</strong><small>Useful products, recurring demand, and room for stronger distribution or operations.</small></div></div>
+              <div><span>02</span><div><strong>Ecommerce &amp; brands</strong><small>Distinct products, customer trust, attractive economics, and durable category demand.</small></div></div>
+              <div><span>03</span><div><strong>Technology-enabled services</strong><small>Repeatable expertise that can be strengthened through software and automation.</small></div></div>
+              <div><span>04</span><div><strong>Founder transitions</strong><small>Owners seeking continuity, a thoughtful partner, or the next operating chapter.</small></div></div>
+            </div>
+            <div class="acquisition-panel-footer">
+              <span>No broker deck required.</span>
+              <a href="mailto:info@sellerydigital.com?subject=Confidential%20business%20conversation">info@sellerydigital.com <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M6 4h10v10M15.5 4.5 5 15" /></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section global-section" id="global">
+      <div class="container global-layout">
+        <div class="global-copy reveal">
+          <div class="section-index"><span>08</span><i></i><small>Global</small></div>
+          <h2>Global by design. <span class="text-sheen">Close to the signal.</span></h2>
+          <p>Commerce, software, customers, competitors, and opportunity do not respect borders. Sellery is built to observe globally, operate intelligently, and move where the advantage is strongest.</p>
+          <div class="global-principles">
+            <div><span>01</span><strong>Always sensing</strong><small>Markets, customers, algorithms, and competitors.</small></div>
+            <div><span>02</span><strong>Always building</strong><small>New systems before the old advantage disappears.</small></div>
+            <div><span>03</span><strong>Always compounding</strong><small>Knowledge moves across the portfolio.</small></div>
+          </div>
+        </div>
+        <div class="global-visual reveal reveal-delay-1" data-depth-card>
+          <canvas id="network-canvas" aria-label="Animated global network visualization"></canvas>
+          <div class="global-overlay">
+            <div class="global-overlay-top"><span>SELLERY NETWORK</span><i></i><strong>LIVE</strong></div>
+            <div class="global-coordinate global-coordinate-a"><i></i><span>Commerce</span></div>
+            <div class="global-coordinate global-coordinate-b"><i></i><span>Software</span></div>
+            <div class="global-coordinate global-coordinate-c"><i></i><span>Capital</span></div>
+            <div class="global-coordinate global-coordinate-d"><i></i><span>Intelligence</span></div>
+            <div class="global-data"><span>Signals</span><strong>Connected</strong><i></i><span>Systems</span><strong>Operating</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="contact-shell reveal">
+          <div class="contact-copy">
+            <div class="eyebrow"><span class="eyebrow-index">S / 09</span><span>Private channel</span></div>
+            <h2>Bring us the opportunity.</h2>
+            <p>Acquisition, consulting, technology, investment, or strategic partnership—send the essential details and the right operator will review them.</p>
+
+            <div class="contact-paths" aria-label="Common contact paths">
+              <button type="button" data-intent-button="Sell my business"><span>01</span><div><strong>Sell a business</strong><small>Confidential founder conversation</small></div><i></i></button>
+              <button type="button" data-intent-button="Consulting engagement"><span>02</span><div><strong>Operator consulting</strong><small>Complex growth or systems problem</small></div><i></i></button>
+              <button type="button" data-intent-button="Technology opportunity"><span>03</span><div><strong>Technology</strong><small>Product, platform, or AI opportunity</small></div><i></i></button>
+              <button type="button" data-intent-button="Strategic partnership"><span>04</span><div><strong>Partnership</strong><small>Strategic or portfolio collaboration</small></div><i></i></button>
+            </div>
+
+            <div class="contact-direct">
+              <span>Direct</span>
+              <a href="mailto:info@sellerydigital.com">info@sellerydigital.com</a>
+              <small>Every valid submission is converted into a branded PDF and delivered to the Sellery team.</small>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <input type="text" name="fax_number" id="fax_number" class="honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
+            <input type="hidden" name="startedAt" id="startedAt" />
+
+            <div class="form-heading">
+              <span class="micro-label">OPPORTUNITY INTAKE</span>
+              <div class="form-security"><i></i> Private submission</div>
+            </div>
+
+            <div class="field field-full">
+              <label for="intent">What are we discussing?</label>
+              <div class="select-wrap">
+                <select id="intent" name="intent" required>
+                  <option value="">Select an opportunity</option>
+                  <option value="Sell my business">Sell my business</option>
+                  <option value="Consulting engagement">Consulting engagement</option>
+                  <option value="Strategic partnership">Strategic partnership</option>
+                  <option value="Technology opportunity">Technology opportunity</option>
+                  <option value="Investment or portfolio opportunity">Investment or portfolio opportunity</option>
+                  <option value="General inquiry">General inquiry</option>
+                </select>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m6 8 4 4 4-4" /></svg>
+              </div>
+              <span class="field-error" data-error-for="intent"></span>
+            </div>
+
+            <div class="form-row form-row-two">
+              <div class="field">
+                <label for="name">Full name</label>
+                <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required maxlength="100" />
+                <span class="field-error" data-error-for="name"></span>
+              </div>
+              <div class="field">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required maxlength="160" />
+                <span class="field-error" data-error-for="email"></span>
+              </div>
+            </div>
+
+            <div class="form-row form-row-two">
+              <div class="field">
+                <label for="company">Company</label>
+                <input id="company" name="company" type="text" autocomplete="organization" placeholder="Company name" maxlength="140" />
+                <span class="field-error" data-error-for="company"></span>
+              </div>
+              <div class="field">
+                <label for="phone">Phone <em>Optional</em></label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" placeholder="+1 555 000 0000" maxlength="40" />
+                <span class="field-error" data-error-for="phone"></span>
+              </div>
+            </div>
+
+            <div class="form-row form-row-two">
+              <div class="field">
+                <label for="website">Website <em>Optional</em></label>
+                <input id="website" name="website" type="url" inputmode="url" placeholder="https://" maxlength="240" />
+                <span class="field-error" data-error-for="website"></span>
+              </div>
+              <div class="field">
+                <label for="companyType">Company type <em>Optional</em></label>
+                <div class="select-wrap">
+                  <select id="companyType" name="companyType">
+                    <option value="">Select type</option>
+                    <option value="Software / SaaS">Software / SaaS</option>
+                    <option value="Ecommerce / Brand">Ecommerce / Brand</option>
+                    <option value="Technology-enabled service">Technology-enabled service</option>
+                    <option value="Agency / Consultancy">Agency / Consultancy</option>
+                    <option value="Investor / Capital partner">Investor / Capital partner</option>
+                    <option value="Other">Other</option>
+                  </select>
+                  <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m6 8 4 4 4-4" /></svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="field field-full">
+              <label for="revenue">Annual revenue range <em>Optional</em></label>
+              <div class="select-wrap">
+                <select id="revenue" name="revenue">
+                  <option value="">Prefer not to say / not applicable</option>
+                  <option value="Pre-revenue">Pre-revenue</option>
+                  <option value="Under $500K">Under $500K</option>
+                  <option value="$500K–$2M">$500K–$2M</option>
+                  <option value="$2M–$10M">$2M–$10M</option>
+                  <option value="$10M–$50M">$10M–$50M</option>
+                  <option value="$50M+">$50M+</option>
+                </select>
+                <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m6 8 4 4 4-4" /></svg>
+              </div>
+            </div>
+
+            <div class="field field-full">
+              <label for="message">The essential details</label>
+              <textarea id="message" name="message" rows="6" placeholder="What have you built, what opportunity do you see, and what outcome are you looking for?" required minlength="20" maxlength="5000"></textarea>
+              <div class="textarea-meta"><span class="field-error" data-error-for="message"></span><span id="message-count">0 / 5,000</span></div>
+            </div>
+
+            <label class="consent" for="consent">
+              <input id="consent" name="consent" type="checkbox" required />
+              <span class="checkmark"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="m3 8 3 3 7-7" /></svg></span>
+              <span>I agree that Sellery may use this information to respond to my inquiry. See the <a href="privacy.html">Privacy Policy</a>.</span>
+            </label>
+            <span class="field-error consent-error" data-error-for="consent"></span>
+
+            <button class="button button-primary button-submit" type="submit" id="submit-button">
+              <span class="submit-label">Transmit opportunity</span>
+              <span class="submit-spinner" aria-hidden="true"></span>
+              <svg class="submit-arrow" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg>
+            </button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-statement">
+        <a class="brand footer-logo" href="#top" aria-label="Sellery home">
+          <picture class="brand-picture brand-on-dark"><source srcset="assets/sellery-logo-on-dark.webp" type="image/webp" /><img src="assets/sellery-logo-on-dark.png" alt="Sellery" width="300" height="100" loading="lazy" /></picture>
+          <picture class="brand-picture brand-on-light"><source srcset="assets/sellery-logo-on-light.webp" type="image/webp" /><img src="assets/sellery-logo-on-light.png" alt="Sellery" width="300" height="100" loading="lazy" /></picture>
+        </a>
+        <p>The operating company behind software, AI, technology, and ecommerce businesses.</p>
+      </div>
+      <div class="footer-cta">
+        <span>BUILD / BUY / OPERATE / COMPOUND</span>
+        <a href="#contact" data-intent="Strategic partnership">Start a conversation <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg></a>
+      </div>
+    </div>
+    <div class="container footer-main">
+      <div class="footer-column"><span>Company</span><a href="#company">Operating model</a><a href="#platform">Platform</a><a href="#global">Global footprint</a></div>
+      <div class="footer-column"><span>Portfolio</span><a href="#portfolio">Malach</a><a href="#portfolio">Commerce OS</a><a href="#portfolio">Venture Studio</a></div>
+      <div class="footer-column"><span>Opportunities</span><a href="#acquisitions" data-intent="Sell my business">Sell your business</a><a href="#services">Consulting</a><a href="#contact" data-intent="Strategic partnership">Partnerships</a></div>
+      <div class="footer-column"><span>Contact</span><a href="mailto:info@sellerydigital.com">info@sellerydigital.com</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© <span data-current-year></span> Sellery Brands. All rights reserved.</p>
+      <p class="footer-signal"><span></span> Building the next operating advantage.</p>
+    </div>
+  </footer>
+
+  <dialog class="project-dialog" id="portfolio-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-backdrop" data-dialog-close></div>
+    <div class="dialog-panel">
+      <div class="dialog-visual" id="dialog-visual" aria-hidden="true"><span></span><i></i><b></b></div>
+      <button class="dialog-close" type="button" data-dialog-close aria-label="Close portfolio brief"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15" /></svg></button>
+      <div class="dialog-kicker" id="dialog-kicker"></div>
+      <h2 id="dialog-title"></h2>
+      <p class="dialog-lede" id="dialog-lede"></p>
+      <div class="dialog-details" id="dialog-details"></div>
+      <a class="button button-primary" href="#contact" id="dialog-cta" data-intent="" data-dialog-close>
+        Discuss this opportunity
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" /></svg>
+      </a>
+    </div>
+  </dialog>
+
+  <div class="demo-toast" id="demo-toast" role="status" aria-live="polite" hidden>
+    <span class="demo-toast-icon"><i></i></span>
+    <div><strong id="demo-toast-title">System action</strong><small id="demo-toast-copy">Illustrative interface action completed.</small></div>
+    <button type="button" id="demo-toast-close" aria-label="Close notification"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5 5 10 10M15 5 5 15" /></svg></button>
+  </div>
+
+  <div class="success-overlay" id="success-overlay" role="dialog" aria-modal="true" aria-labelledby="success-title" hidden>
+    <div class="success-card">
+      <div class="success-rings" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="success-icon"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="m7 16 6 6L26 9" /></svg></div>
+      <span class="micro-label">TRANSMISSION COMPLETE</span>
+      <h2 id="success-title">Opportunity received.</h2>
+      <p>Your PDF submission has been sent to <strong>info@sellerydigital.com</strong>.</p>
+      <div class="success-reference"><span>Reference</span><strong id="success-reference">—</strong></div>
+      <button class="button button-primary" type="button" id="success-close">Return to Sellery</button>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

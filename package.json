@@ -1,0 +1,17 @@
+{
+  "name": "sellery-website",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Luxury software-style corporate website for Sellery with a dependency-free PDF contact endpoint.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "preview": "python3 -m http.server 4173",
+    "test:pdf": "node scripts/test-pdf.js",
+    "check": "node scripts/check-site.js",
+    "test:api": "node scripts/test-api.js",
+    "test": "npm run check && npm run test:pdf && npm run test:api"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
